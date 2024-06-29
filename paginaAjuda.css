@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    margin: 0 auto 0;
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4E4D5;
+    letter-spacing: 1px;
+}
+
+details {
+    cursor: default;
+}
+
+.titulo-FAQ {
+    padding: 12px 24px;
+    font-size: 2rem;
+    font-weight: 700;
+    animation: ease-in-out 0.35s;
+    transition: 350ms;
+}
+
+summary {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.respostas-FAQ {
+    padding: 8px 8px 8px 36px;
+    animation: ease-in-out 0.35s;
+    transition: 350ms;
+}
+
+summary:hover {
+    background-color: #f5eae0;
+    transition: 350ms;
+}
+#tutorial-FAQ {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    margin: 8px;
+    width: 1074px;
+    height: 601px;
+}
